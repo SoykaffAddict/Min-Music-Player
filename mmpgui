@@ -1,0 +1,152 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0308
+header_name {.h}
+code_name {.cxx}
+Function {make_window()} {open C
+} {
+  Fl_Window {} {
+    label {Moon Music Player} open
+    xywh {355 136 685 385} type Double color 36 selection_color 50 align 80 size_range {683 384 0 0} visible
+  } {
+    Fl_Box {} {
+      xywh {0 365 750 20} box FLAT_BOX color 38 labeltype NO_LABEL align 6
+    }
+    Fl_Box {} {
+      image {cover.jpg} xywh {10 240 110 115} box FLAT_BOX color 144 align 64
+    }
+    Fl_Button {} {
+      label Artists
+      xywh {10 50 110 20} box FLAT_BOX color 38 labelfont 4 labelcolor 23
+    }
+    Fl_Button {} {
+      label Playlists
+      xywh {10 70 110 20} box FLAT_BOX color 38 labelfont 4 labelcolor 23
+    }
+    Fl_Button {} {
+      label Albuns
+      xywh {10 90 110 20} box FLAT_BOX color 38 labelfont 4 labelcolor 23
+    }
+    Fl_Browser {} {
+      xywh {140 55 420 300} color 38 labelfont 4 align 0 textfont 4 textcolor 7
+    }
+    Fl_Text_Display {} {
+      label Recents
+      xywh {580 45 95 310} box FLAT_BOX color 38 labeltype NO_LABEL labelcolor 38
+    }
+    Fl_Box {} {
+      label {Recents:}
+      xywh {580 25 95 20} box FLAT_BOX color 38 labelfont 5 labelcolor 23
+    }
+    Fl_Input {} {
+      label Search
+      xywh {190 25 335 25} color 38 labeltype NO_LABEL labelcolor 39 textfont 4 textcolor 41
+    }
+    Fl_Menu_Bar {} {
+      label Menu open selected
+      xywh {0 0 685 20} box FLAT_BOX color 38
+    } {
+      Submenu {} {
+        label Archive open
+        xywh {0 0 70 21} labelcolor 23
+      } {
+        MenuItem {} {
+          label {Choose Search Dir}
+          xywh {0 0 36 21}
+        }
+        MenuItem {} {
+          label {Choose Search Dir}
+          xywh {10 10 36 21}
+        }
+        MenuItem {} {
+          label {Choose Search Dir}
+          xywh {20 20 36 21}
+        }
+        MenuItem {} {
+          label {Choose Search Dir}
+          xywh {30 30 36 21}
+        }
+        MenuItem {} {
+          label {Choose Search Dir}
+          xywh {40 40 36 21}
+        }
+      }
+      Submenu {} {
+        label Edit
+        xywh {20 20 70 21} labelcolor 23
+      } {
+        MenuItem {} {
+          label {Manage playlists}
+          xywh {40 40 36 21}
+        }
+      }
+      Submenu {} {
+        label Options
+        xywh {30 30 70 21} labelcolor 23
+      } {
+        MenuItem {} {
+          label Colors
+          xywh {50 50 36 21}
+        }
+      }
+    }
+    Fl_Button {} {
+      label Genres
+      xywh {10 110 110 20} box FLAT_BOX color 38 labelfont 4 labelcolor 23
+    }
+    Fl_Button {} {
+      label Tracks
+      xywh {10 130 110 20} box FLAT_BOX color 38 labelfont 4 labelcolor 23
+    }
+    Fl_Output {} {
+      xywh {235 365 215 20} box NO_BOX color 35 labeltype NO_LABEL labelfont 7 labelcolor 14 align 0 textfont 7 textcolor 189
+    }
+    Fl_Button {} {
+      label N
+      xywh {210 365 25 25} box FLAT_BOX
+    }
+    Fl_Button {} {
+      label B
+      xywh {180 365 25 25} box FLAT_BOX
+    }
+    Fl_Button {} {
+      label P
+      xywh {475 365 25 25} box FLAT_BOX
+    }
+    Fl_Button {} {
+      label S
+      xywh {505 365 25 25} box FLAT_BOX
+    }
+    Fl_Box {} {
+      label {Organize by:}
+      xywh {10 25 110 25} box FLAT_BOX color 38 labelfont 5 labelcolor 23
+    }
+    Fl_Button {} {
+      label {A-Z}
+      xywh {10 190 110 20} box FLAT_BOX color 38 labelfont 4 labelcolor 23
+    }
+    Fl_Button {} {
+      label {Z-A}
+      xywh {10 210 110 20} box FLAT_BOX color 38 labelfont 4 labelcolor 23
+    }
+    Fl_Button {} {
+      label Smaller
+      xywh {10 150 110 20} box FLAT_BOX color 38 labelfont 4 labelcolor 23
+    }
+    Fl_Button {} {
+      label Longer
+      xywh {10 170 110 20} box FLAT_BOX color 38 labelfont 4 labelcolor 23
+    }
+    Fl_Button {} {
+      label R
+      xywh {535 365 25 25} box FLAT_BOX
+    }
+    Fl_Button {} {
+      label M
+      xywh {150 365 25 25} box FLAT_BOX
+    }
+    Fl_Button {} {
+      label O
+      xywh {565 365 25 25} box FLAT_BOX
+    }
+  }
+}
